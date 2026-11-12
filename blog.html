@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project Blog | Library Management System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="logo">LMS<span>.</span></div>
+  <nav><a href="index.html">Portfolio</a><a href="blog.html" class="active">Blog</a></nav>
+</header>
+
+<main class="article">
+<p class="tag">PROJECT BLOG • C++ • OBJECT-ORIENTED PROGRAMMING</p>
+<h1>Building a Library Management System with C++</h1>
+<p class="lead">From OOP concepts to a working console application: the idea, implementation, challenges and lessons learned.</p>
+
+<div class="article-card">
+<h2>01 — The Idea</h2>
+<p>Managing books manually can become difficult when records grow. This project was created as a simple digital solution for storing book information and handling common library operations.</p>
+
+<h2>02 — What the System Does</h2>
+<p>The application provides a menu-driven interface. Users can add new books, display all records, search by Book ID or title, issue books to students, return books and exit the program.</p>
+
+<h2>03 — Using OOP in a Real Project</h2>
+<p>The project applies major Object-Oriented Programming concepts. LibraryItem provides common behavior, while Book extends it. Encapsulation keeps important data controlled. Inheritance reduces repetition, abstraction hides unnecessary implementation details, and polymorphism is demonstrated through the virtual displayDetails() function.</p>
+
+<h2>04 — Handling Real-World Cases</h2>
+<p>The program checks whether a Book ID already exists before adding a book. It also prevents an already issued book from being issued again and validates user input so incorrect choices do not break the program.</p>
+
+<h2>05 — Challenges</h2>
+<p>A key challenge was keeping the availability status consistent after issue and return operations. Another was designing the classes so that the OOP concepts were not just theoretical but actually useful to the application's structure.</p>
+
+<h2>06 — What I Learned</h2>
+<p>This project strengthened my understanding of classes, objects, constructors, encapsulation, inheritance, polymorphism, abstraction, vectors, strings and input validation. It also showed how individual programming concepts combine to create a complete application.</p>
+
+<h2>07 — Future Improvements</h2>
+<p>The system can be extended with database or file storage, librarian login, student records, due dates, fine calculation and a graphical user interface.</p>
+
+<h2>08 — Final Result</h2>
+<p>The final application provides a simple and organized way to manage basic library operations through a C++ console interface. It is a practical demonstration of Object-Oriented Programming in an academic mini project.</p>
+
+<div class="github">
+<strong>Project Repository</strong>
+<a href="https://github.com/adityabh2948-ctrl/Library-Management-System" target="_blank">Open Library Management System on GitHub ↗</a>
+</div>
+</div>
+</main>
+<footer>Library Management System • Project Blog</footer>
+</body>
+</html>
